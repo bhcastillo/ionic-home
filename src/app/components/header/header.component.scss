@@ -1,0 +1,38 @@
+.bc-header--container {
+  position: relative;
+  height: 35px;
+}
+.bc-header--container > h2 {
+  position: absolute;
+  width: 268px;
+  height: 25px;
+  left: 0px;
+  top: 0px;
+
+  /* Subtitle 2 */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  /* 75% */
+
+  color: #58506b;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 10px 0px;
+}
+
+.bc-header--container > img {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 302px;
+  top: 10px;
+}

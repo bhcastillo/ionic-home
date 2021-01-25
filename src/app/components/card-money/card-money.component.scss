@@ -1,0 +1,35 @@
+.bc-card-money--container {
+  position: relative;
+  top: 300px;
+  width: 327px;
+  justify-content: space-around;
+  // left: 24px;
+  // top: 369px;
+
+  /* White */
+
+  background: #ffffff;
+  /* Card shadow soft */
+
+  box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+  border-radius: 20px;
+  padding: 0 10px;
+}
+
+// .bc-card-money--item {
+//   display: flex;
+//   justify-content: space-between;
+//   padding: 21px 21px 0 21px;
+//   flex: 1 2 50%;
+// }
+.bc-card-money-divider {
+  width: 287px;
+  height: 0px;
+  /* Background */
+  margin: auto;
+  margin-top: 7px;
+  border: 1px solid #faf9fd;
+}
+.bc-card-money-quantity {
+  text-align: end;
+}
