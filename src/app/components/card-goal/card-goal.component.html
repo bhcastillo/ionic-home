@@ -1,0 +1,18 @@
+<div class="bc-cards-goals__container">
+  <div class="bc-cards-goal__header">
+    <h2> Tus metas</h2>
+    <img [src]="'add_circle' | img:'goals'">
+  </div>
+  <div class="bc-cards__container">
+    <ion-card *ngFor="let card of cardsGoals">
+      <ion-card-header>
+        <img [src]="card.imgSrc | img :'goals' ">
+        <h3> {{ card.title }} </h3>
+      </ion-card-header>
+      <ion-card-content>
+        <p> {{ card.contribution }} </p>
+        <p> {{ card.totalGoal }} </p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</div>

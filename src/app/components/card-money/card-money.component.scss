@@ -1,16 +1,9 @@
-.bc-card-money--container {
+.bc-card-money__container {
   position: relative;
-  top: 300px;
+  margin-top: 20px;
   width: 327px;
   justify-content: space-around;
-  // left: 24px;
-  // top: 369px;
-
-  /* White */
-
   background: #ffffff;
-  /* Card shadow soft */
-
   box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
   border-radius: 20px;
   padding: 0 10px;

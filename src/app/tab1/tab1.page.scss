@@ -1,5 +1,11 @@
-.bc-home--container {
+.bc-home__container {
   margin: auto;
   width: 327px;
   min-height: 100vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;
+}
+.bc-home__container::-webkit-scrollbar{
+  display: none;
 }
