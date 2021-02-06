@@ -15,10 +15,15 @@
 ion-card{
   position: relative;
   height: 206px;
+  width: 100%;
   background: #FFF;
-  box-shadow:  0px 8px 20px rbga(197,166,236,0.05);
+  box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
   border-radius: 20px;
-  margin: 0;
+  
+
+}
+.hydrated{
+  margin: 10px 0;
 }
 ion-button{
   width: 75px;

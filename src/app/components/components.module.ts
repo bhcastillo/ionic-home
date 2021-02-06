@@ -12,6 +12,7 @@ import { CardGoalComponent } from './card-goal/card-goal.component';
 //Pipes
 import { ImgPipe } from '../pipes/img.pipe';
 import { CardPortfolioComponent } from './card-portfolio/card-portfolio.component';
+import { CardNewsComponent } from './card-news/card-news.component';
 
 
 
@@ -23,6 +24,7 @@ import { CardPortfolioComponent } from './card-portfolio/card-portfolio.componen
     CardGoalComponent,
     ImgPipe,
     CardPortfolioComponent,
+    CardNewsComponent,
   ],
   exports: [
     CardIndexComponent,
@@ -30,6 +32,7 @@ import { CardPortfolioComponent } from './card-portfolio/card-portfolio.componen
     CardMoneyComponent,
     CardGoalComponent,
     CardPortfolioComponent,
+    CardNewsComponent,
   ],
   imports: [
     CommonModule,
