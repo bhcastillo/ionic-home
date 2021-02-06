@@ -3,4 +3,5 @@ export interface IcardGoal {
   imgSrc: string;
   totalGoal: number;
   contribution: number;
+  percent?: number;
 }

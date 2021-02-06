@@ -10,9 +10,19 @@
         <h3> {{ card.title }} </h3>
       </ion-card-header>
       <ion-card-content>
-        <p> {{ card.contribution }} </p>
-        <p> {{ card.totalGoal }} </p>
+        <ion-grid>
+          <ion-row>
+            <circle-progress class="circle" [options]="card1"
+              [percent]="calculatePercent(card.totalGoal,card.contribution)" [renderOnClick]="false">
+            </circle-progress>
+            <ion-col>
+              <p class="number-1"> {{ card.contribution | currency:"$":"symbol":"4.0-2" }} </p>
+              <p class="number-2"> {{ card.totalGoal | currency:"$":"symbol":"4.0-2" }} </p>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
       </ion-card-content>
     </ion-card>
   </div>
+
 </div>
